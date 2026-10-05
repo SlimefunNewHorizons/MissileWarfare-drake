@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/MissileWarfare-drake/main/banner.svg" width="100%" alt="MISSILE WARFARE animated banner" />
+  <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/MissileWarfare-drake/main/banner.svg" width="100%" alt="MISSILE WARFARE animated banner" />
 </p>
 
 # MissileWarfare-drake
@@ -14,9 +14,9 @@
 
 ---
 
-[![Rama](https://img.shields.io/badge/branch-1.21--latin-2ea44f)](https://github.com/DrakesCraft-Labs/MissileWarfare-drake/tree/1.21-latin)
-[![License](https://img.shields.io/github/license/DrakesCraft-Labs/MissileWarfare-drake)](https://github.com/DrakesCraft-Labs/MissileWarfare-drake/blob/1.21-latin/LICENSE)
-[![Ultimo commit](https://img.shields.io/github/last-commit/DrakesCraft-Labs/MissileWarfare-drake/1.21-latin)](https://github.com/DrakesCraft-Labs/MissileWarfare-drake/commits/1.21-latin)
+[![Rama](https://img.shields.io/badge/branch-1.21--latin-2ea44f)](https://github.com/SlimefunNewHorizons/MissileWarfare-drake/tree/1.21-latin)
+[![License](https://img.shields.io/github/license/SlimefunNewHorizons/MissileWarfare-drake)](https://github.com/SlimefunNewHorizons/MissileWarfare-drake/blob/1.21-latin/LICENSE)
+[![Ultimo commit](https://img.shields.io/github/last-commit/SlimefunNewHorizons/MissileWarfare-drake/1.21-latin)](https://github.com/SlimefunNewHorizons/MissileWarfare-drake/commits/1.21-latin)
 
 ## Descripción técnica
 Addon de combate con misiles/armamento integrado al ecosistema Slimefun.
@@ -77,7 +77,7 @@ de Slimefun: no hace falta ningún comando especial para empezar.
 |---|---|
 | Servidor | Paper / Purpur **1.21.11** |
 | Java | **21** |
-| Requiere | [Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake) |
+| Requiere | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
 | Lado | Solo servidor — quien juega no instala nada |
 | Versión | ${project.version} |
 
@@ -93,7 +93,7 @@ de Slimefun: no hace falta ningún comando especial para empezar.
 ## Créditos
 - kaiyan2006
 
-Port y mantenimiento por **DrakesCraft Labs**. La autoría original es de quien figura arriba; el detalle está en [docs/UPSTREAM_ATTRIBUTION.md](https://raw.githubusercontent.com/DrakesCraft-Labs/MissileWarfare-drake/main/docs/UPSTREAM_ATTRIBUTION.md).
+Port y mantenimiento por **DrakesCraft Labs**. La autoría original es de quien figura arriba; el detalle está en [docs/UPSTREAM_ATTRIBUTION.md](https://raw.githubusercontent.com/SlimefunNewHorizons/MissileWarfare-drake/main/docs/UPSTREAM_ATTRIBUTION.md).
 
 Licencia **GPL-3.0-only**.
 
@@ -101,7 +101,7 @@ Licencia **GPL-3.0-only**.
 
 ## 📄 License & Upstream Attribution
 
-This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/DrakesCraft-Labs).
+This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
 - **Original Project:** Created by the upstream authors and the open-source community.
 - **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.
