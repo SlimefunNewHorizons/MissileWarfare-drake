@@ -36,6 +36,16 @@ public class MissileWarfare extends JavaPlugin implements SlimefunAddon {
     public static int blocksExploded = 0;
 
     @Override
+    public void onLoad() {
+        // WorldGuard 7 cierra su registro de flags antes de onEnable: la flag
+        // allow-missile-explode solo puede registrarse aquí (softdepend asegura el orden).
+        if (getServer().getPluginManager().getPlugin("WorldGuard") != null
+                && getServer().getPluginManager().getPlugin("WorldEdit") != null) {
+            WorldGuardLoader.load(this);
+        }
+    }
+
+    @Override
     public void onEnable() {
         DrakesLabsReleaseUpdate.schedule(this, "MissileWarfare-drake");
 
@@ -111,10 +121,6 @@ public class MissileWarfare extends JavaPlugin implements SlimefunAddon {
         new BukkitRunnable() {
             @Override
             public void run() {
-                if (getServer().getPluginManager().getPlugin("WorldGuard") != null
-                        && getServer().getPluginManager().getPlugin("WorldEdit") != null) {
-                    WorldGuardLoader.load(MissileWarfare.this);
-                }
                 if (getServer().getPluginManager().getPlugin("Towny") != null) {
                     TownyLoader.setup();
                 }
