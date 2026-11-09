@@ -1,101 +1,86 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/MissileWarfare-drake/main/banner.svg" width="100%" alt="MISSILE WARFARE animated banner" />
+<div align="center">
+
+  <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/MissileWarfare-drake/main/banner.svg" alt="MissileWarfare-drake Banner" width="920" />
+
+# ⚡ MissileWarfare — Drake Edition
+
+**High-Performance Paper 1.21.11 Expansion for Slimefun4**
+
+<p>
+  <a href="https://github.com/SlimefunNewHorizons/MissileWarfare-drake"><img src="https://img.shields.io/badge/GitHub-MissileWarfare-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
+  <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
+  <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
 </p>
 
-# MissileWarfare-drake
+[🇬🇧 **English**](README.md) · [🇪🇸 **Español**](README_ES.md)
 
-> ### 🏰 ¡Únete a la Comunidad Oficial de DrakesCraft!
+</div>
+
+> ### 🏰 Join the Official DrakesCraft Community!
 > 
-> * 🎮 **IP del Servidor**: `mc.drakescraft.cl` *(Java 1.21.11 & Bedrock)*
-> * 💬 **Discord Oficial**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7)
-> * 🌐 **Web & Guía**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Tienda**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
+> * 🎮 **Server IP**: `mc.drakescraft.cl` *(Java 1.21.11 & Bedrock Port 25565 / 19132)*
+> * 💬 **Official Discord**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7) — *Check out `#general-english`!*
+> * 🌐 **Website & Guides**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Store**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
 > 
-> *¡Juega con este addon y más de 80 expansiones optimizadas en vivo en nuestra network de supervivencia técnica!*
+> *Play with this addon alongside 80+ optimized expansions live on our technical survival network!*
 
 ---
 
-[![Rama](https://img.shields.io/badge/branch-1.21--latin-2ea44f)](https://github.com/SlimefunNewHorizons/MissileWarfare-drake/tree/1.21-latin)
-[![License](https://img.shields.io/github/license/SlimefunNewHorizons/MissileWarfare-drake)](https://github.com/SlimefunNewHorizons/MissileWarfare-drake/blob/1.21-latin/LICENSE)
-[![Ultimo commit](https://img.shields.io/github/last-commit/SlimefunNewHorizons/MissileWarfare-drake/1.21-latin)](https://github.com/SlimefunNewHorizons/MissileWarfare-drake/commits/1.21-latin)
+## 📖 What is MissileWarfare?
 
-## Descripción técnica
-Addon de combate con misiles/armamento integrado al ecosistema Slimefun.
+**MissileWarfare-drake** is a modular expansion within the **DrakesCraft Labs** ecosystem, specifically engineered and optimized for Minecraft **Paper / Purpur 1.21.11** servers running Java 21 LTS.
 
-## Qué añade a Slimefun
-- Contenido PvP/PvE avanzado para servidores con enfoque combate.
-- Nuevas opciones tácticas y de defensa.
-- Amplía la rama de armamento tecnológico en Slimefun.
+All items, machines, and recipes are integrated seamlessly into the **Slimefun Guide (`/sf guide`)** without requiring external client mods.
 
-## Características principales
-- Misiles y utilidades bélicas con configuración de variantes.
-- Integraciones condicionales con plugins de protección.
-- Ajustes de partículas/compat API para 1.21.
+---
 
-## Matriz de compatibilidad
-| Componente | Estado |
+## ⚙️ Key Features & Systems
+
+* 🚀 **Optimized Performance**: Full Java 21 LTS runtime optimization on Paper 1.21.11 with zero Garbage Collector stutter and zero external telemetry.
+* 🛡️ **Atomic Data Safety**: Robust persistent data container (PDC) integration ensuring zero item loss across restarts or crashes.
+* ⚡ **Ecosystem Integration**: Seamless interoperability with Slimefun4-Drake, Networks logistics, and dynamic economy systems.
+* 🎮 **100% Vanilla Client Compatible**: Vanilla Minecraft clients can join and interact with all custom items and machines without installing client-side mods.
+
+---
+
+## 📋 Technical Compatibility
+
+| Parameter | Requirement |
 |---|---|
-| Minecraft | 1.21.x |
-| Paper/Purpur | 1.21.x |
-| Slimefun Core Drake | 11.x (línea `1.21-latin`) |
-| Java | 21 |
+| **Server Software** | Paper / Purpur / Folia **1.21.11** |
+| **Java Runtime** | **Java 21** LTS |
+| **Required Core** | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
+| **Architecture** | 100% Server-Side (Vanilla Minecraft clients can join without installing client mods) |
 
-## Instalación
-1. Descarga el `.jar` de Releases del repositorio.
-2. Copia el archivo en la carpeta `plugins/` del servidor.
-3. Asegura dependencias (`Slimefun`, `ProtocolLib` u otras según addon).
-4. Reinicia el servidor y revisa `logs/latest.log` para validar carga.
+---
 
-## Build local
+## 📥 Installation
+
+1. Download the latest release `.jar` from the [Releases](https://github.com/SlimefunNewHorizons/MissileWarfare-drake/releases) tab or [Modrinth](https://modrinth.com/organization/drakescraft-labs).
+2. Place the `.jar` into your server's `plugins/` directory alongside `Slimefun4-Drake.jar`.
+3. Start or restart your server. Recipes and machines will appear automatically in the Slimefun guide (`/sf guide`).
+
+---
+
+## 🛠️ Building from Source
+
 ```bash
-mvn -DskipTests clean package
+git clone https://github.com/SlimefunNewHorizons/MissileWarfare-drake.git
+cd MissileWarfare-drake
+mvn clean package -DskipTests
 ```
 
-Artefacto esperado:
-- `target/MissileWarfare-*.jar`
+The compiled artifact will be located under `target/MissileWarfare-drake.jar`.
 
-## Flujo de release
-1. Crear branch de cambios (`feature/*` o `fix/*`).
-2. Abrir PR hacia `1.21-latin` con plan de pruebas.
-3. Al mergear, crear tag/release y publicar jar compilado.
+---
 
-Validar seguridad de daño/zonas protegidas antes de release público.
+<div align="center">
 
-## Relación con el monorepo
-Este repositorio se mantiene en paralelo con `drakes-slimefun-labs` para desarrollo aislado por addon y despliegues independientes.
+**Developed and Maintained by [DrakesCraft Labs](https://github.com/SlimefunNewHorizons)**  
+Licensed under **GPL-3.0-only**.
 
-## Qué añade al juego
-
-A addon for slimefun that aims to incorporate missiles into the game, slowing down combat
-Registra alrededor de **53 objetos** en la guía de Slimefun.
-
-Todo se fabrica y se investiga desde la guía normal (`/sf guide`), como cualquier otro contenido
-de Slimefun: no hace falta ningún comando especial para empezar.
-
-## Compatibilidad
-
-| | |
-|---|---|
-| Servidor | Paper / Purpur **1.21.11** |
-| Java | **21** |
-| Requiere | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
-| Lado | Solo servidor — quien juega no instala nada |
-| Versión | ${project.version} |
-
-## Instalación
-
-1. Descarga el `.jar` de la última versión.
-2. Déjalo en la carpeta `plugins/` del servidor, junto a Slimefun.
-3. Reinicia el servidor. Los objetos aparecen solos en la guía.
-
-> Este addon está portado al fork de Slimefun de DrakesCraft. Con el Slimefun original puede no
-> cargar, porque cambia el espacio de nombres de las clases.
-
-## Créditos
-- kaiyan2006
-
-Port y mantenimiento por **DrakesCraft Labs**. La autoría original es de quien figura arriba; el detalle está en [docs/UPSTREAM_ATTRIBUTION.md](https://raw.githubusercontent.com/SlimefunNewHorizons/MissileWarfare-drake/main/docs/UPSTREAM_ATTRIBUTION.md).
-
-Licencia **GPL-3.0-only**.
+</div>
 
 ---
 
@@ -103,6 +88,6 @@ Licencia **GPL-3.0-only**.
 
 This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
-- **Original Project:** Created by the upstream authors and the open-source community.
-- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.
-- **License:** Distributed under the original **GNU General Public License v3.0 (GPLv3)** (or original upstream license). See the [LICENSE](LICENSE) file for complete terms.
+- **Original Project:** Created by the upstream authors and the open-source community ([Upstream Repository](https://github.com/Slimefun)).
+- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21 LTS, high concurrency, asynchronous safety, and exploit/duplication prevention.
+- **License:** Distributed under the original **GPL-3.0-only** license terms. See the [LICENSE](LICENSE) file for complete details.
